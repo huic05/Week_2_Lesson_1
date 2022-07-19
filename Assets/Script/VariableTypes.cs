@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EqualityOperators : MonoBehaviour
+public class VariableTypes : MonoBehaviour
 {
 
     int Integer = 1;
@@ -12,7 +12,10 @@ public class EqualityOperators : MonoBehaviour
     char Character = 'a';
     string String = "Hello World";
 
-    int variableOne = 4;
+    public int variableOne = 4;
+    int variableTwo = 5;
+    int variableThree = 6;
+   
 
 
     // Start is called before the first frame update
@@ -20,6 +23,8 @@ public class EqualityOperators : MonoBehaviour
     {
         int variableTwo = variableOne + 5;
         print(variableTwo);
+        print(variableOne + variableTwo);
+        
     }
 
     // Update is called once per frame
